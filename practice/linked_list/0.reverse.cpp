@@ -34,13 +34,10 @@ void printNode(Node *head){
 // ✅ Recursive Reverse
 Node* reverseR(Node* head) {
     if (head == nullptr || head->next == nullptr)
-        return head;  // base case
-
-    Node* newHead = reverseR(head->next); // reverse rest
-
-    head->next->next = head;  // reverse link
-    head->next = nullptr;     // break old link
-
+        return head; 
+    Node* newHead = reverseR(head->next);
+    head->next->next = head;  
+    head->next = nullptr;     
     return newHead;
 }
 
@@ -51,9 +48,7 @@ int main(){
     insertOne(head, 3);
     insertOne(head, 4);
     insertOne(head, 5);
-
-    head = reverseR(head);   // ✅ FIXED
-
+    head = reverseR(head);   
     printNode(head);    
 }
 

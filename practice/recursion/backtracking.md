@@ -38,6 +38,26 @@ Example: [1,2,3].
 
 Example: choose 2 from [1,2,3].
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 9. Print all ways to place K queens on board (not N queens)
 
 Mini version → helps understand N-Queens later.

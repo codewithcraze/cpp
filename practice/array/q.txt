@@ -1,0 +1,120 @@
+## ✅ **EASY (1–30)**
+
+### **Basics, traversal, frequency, simple logic**
+
+1. Find the maximum element in an array.
+2. Find the minimum element in an array.
+3. Compute the sum of all elements in an array.
+4. Compute the average of array elements.
+5. Count how many times a given number appears.
+6. Check if an array is sorted (ascending).
+7. Reverse an array.
+8. Find the index of a given element.
+9. Check if two arrays are equal.
+10. Print even numbers in an array.
+11. Print odd numbers in an array.
+12. Count even and odd numbers.
+13. Count positive, negative, and zero values.
+14. Find the second largest element.
+15. Find the second smallest element.
+16. Find largest and smallest in a single scan.
+17. Remove duplicates from a sorted array.
+18. Remove duplicates from an unsorted array.
+19. Move all zeros to the end.
+20. Count frequency of each element.
+21. Find missing number from 1 to N.
+22. Find duplicate number in array (1 to N).
+23. Rotate array by 1 position.
+24. Rotate array by k positions.
+25. Find max difference (arr[j] - arr[i], j > i).
+26. Find the longest prefix of identical numbers.
+27. Merge two sorted arrays.
+28. Separate even and odd numbers into two arrays.
+29. Find all pairs with sum = target (brute).
+30. Count how many numbers are greater than X.
+
+---
+
+## 🟦 **MEDIUM (31–70)**
+
+### **Two pointers, sliding window, hashing, prefix sum**
+
+31. Two-sum problem (using hashmap).
+32. Find continuous subarray with given sum.
+33. Maximum subarray sum (Kadane).
+34. Longest consecutive sequence.
+35. Longest subarray with equal 0s and 1s.
+36. Longest subarray sum ≤ K.
+37. Smallest subarray with sum ≥ target.
+38. Subarray sum = 0 (detect).
+39. Subarrays with sum K (count).
+40. Find all subarrays of an array.
+41. Find all subsequences of an array.
+42. Find intersection of two arrays.
+43. Find union of two arrays.
+44. Sort array of 0s, 1s, and 2s (Dutch Flag).
+45. Rearrange array so positive and negative alternate.
+46. Rearrange array so odd and even alternate.
+47. Find peak element (binary search).
+48. Majority element (Moore Voting).
+49. Find all elements occurring more than n/3 times.
+50. Find minimum number of jumps to reach end.
+51. Trapping rainwater problem.
+52. Product of array except self.
+53. Next greater element.
+54. Next smaller element.
+55. Stock buy & sell once (max profit).
+56. Stock buy & sell multiple times.
+57. Leaders in an array.
+58. Find equilibrium index (left sum = right sum).
+59. Prefix sum array construction.
+60. Check if subarray with XOR = k exists.
+61. Count subarrays with XOR = k.
+62. Maximum XOR subarray.
+63. Chocolate distribution problem.
+64. Longest increasing subsequence (O(n²)).
+65. Set matrix zeroes.
+66. Spiral traversal of matrix.
+67. Print matrix diagonals.
+68. Find row with maximum 1s in binary matrix.
+69. Check if array can be partitioned into two equal-sum subsets.
+70. Number of subarrays with product < k.
+
+---
+
+## 🔥 **HARD (71–100)**
+
+### **DP on arrays, advanced sliding window, tricky data structures**
+
+71. Maximum product subarray.
+72. Longest increasing subsequence (O(n log n)).
+73. Minimum number of swaps to sort an array.
+74. Find all permutations of an array.
+75. Generate all subsets (power set).
+76. Combination sum (I).
+77. Combination sum (II).
+78. 3-sum (find triplets with sum 0).
+79. 4-sum problem.
+80. Largest rectangle in histogram.
+81. Maximal square in matrix.
+82. Maximal rectangle in binary matrix.
+83. Minimum window subarray (classic).
+84. Count inversions in array (merge sort).
+85. Longest substring without repeating characters.
+86. Sliding window maximum.
+87. Longest bitonic subsequence.
+88. Minimum side jumps (DP).
+89. Minimum operations to make array increasing.
+90. Count distinct elements in every window of size k.
+91. K-th smallest element in array (Quickselect).
+92. K-th largest element using heap.
+93. Median of two sorted arrays.
+94. Search in rotated sorted array.
+95. Find minimum in rotated sorted array.
+96. Largest sum increasing subsequence.
+97. Burst balloons (DP).
+98. Painter partition problem.
+99. Aggressive cows (Binary search on answer).
+100. Allocate minimum number of pages (Binary search on answer).
+
+---

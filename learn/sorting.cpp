@@ -28,10 +28,8 @@ void sort_an_array(){
     int arr[] = {1,24,1,42,53,2,34,22,2};
     // Size of Array 
     int n = sizeof(arr)/sizeof(arr[0]);
-
     // Sorting using inbuilt function.
     sort(arr, arr + n);
-
     for(int i = 0; i < n; i++){
         cout << arr[i] << " ";
     }
@@ -113,6 +111,18 @@ void selection_sort(){
 }
 
 
+/*
+    Algo.
+    Key = arr[1];
+    j is one less than this like i - 1;
+    j >= 0 && arr[j] > key;
+    arr[j + 1] = arr[j];
+    j--;
+
+    arr[j] = key;
+
+    */
+
 void insertion_sort(){
     vector<int> arr = {5,1,4,2,8};
     for(int i = 1; i < arr.size(); i++){
@@ -147,9 +157,9 @@ void nth_largest_from_the_last(){
 
 void dutch_national_flag_algorithm(){
     vector<int> arr = {2, 0, 0, 1, 2, 0, 0, 2, 1,0, 0,};
-    int low = 0; 
-    int mid = 0;
-    int high = arr.size() - 1;
+    int low = 0; // Before it everything is 0.
+    int mid = 0; // Point for current element.
+    int high = arr.size() - 1; // Point for after that 2 only.
 
     while(mid <= high){
         if(arr[mid] == 0){
@@ -170,9 +180,31 @@ void dutch_national_flag_algorithm(){
 
 }
 
+void merge(vector <int> &arr, int left, int mid, int right){
+    
+    int i = left;
+    int j = mid + 1;
+        
+    
+
+}
+
+void merge_sort(vector <int> & arr, int left, int right){
+    if(left >= right){
+        return;
+    }
+
+    int mid = left + (right - left) / 2;
+    merge_sort(arr, left , mid);
+    merge_sort(arr, mid + 1, right);
+
+    merge(arr, left, mid, right);
+}
+
 
 int main(){
 
+    vector<int> arr = {8, 3, 5, 4, 7, 6, 1, 2};
     binary_search();
     cout << endl;
     sort_an_array();
@@ -189,6 +221,7 @@ int main(){
     cout << endl;
     dutch_national_flag_algorithm();
     cout << endl;
+    merge_sort(arr, 0, arr.size() - 1);
 
 
     return 0;

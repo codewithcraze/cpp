@@ -1,0 +1,55 @@
+✅ 10 Basic Branching Recursion Questions
+
+
+1. Print numbers from 1 to N using branching recursion
+
+Write a recursive function that prints numbers from 1 to N, but each call branches into two calls until the base case.
+
+2. Count number of ways to climb stairs (1 step or 2 steps)
+
+Classic recursion:
+ways(n) = ways(n-1) + ways(n-2)
+
+3. Compute Fibonacci number using recursion
+
+fib(n) = fib(n-1) + fib(n-2)
+
+4. Count subsets of a given set
+
+Each element has two choices: include or not include.
+Total recursive calls branch into 2 for each element.
+
+5. Generate all subsets (power set)
+
+Example: Input {1, 2} → {}, {1}, {2}, {1,2}
+Branch: include or exclude current element.
+
+6. Print all binary strings of length N
+
+Each position can be 0 or 1 → 2 branches per step.
+
+7. Count all paths from top-left to bottom-right in a grid (only move right or down)
+
+Two branches:
+count(r, c) = count(r+1, c) + count(r, c+1)
+
+
+skip as of now.
+8. Tower of Hanoi (very basic branching recursion)
+
+Move disks from A to C using B.
+Recurrence:
+T(n) = T(n-1) + 1 + T(n-1)
+
+9. Sum of all subsets (subset-sum using branching recursion)
+
+At each step:
+
+take the element
+
+skip the element
+→ Two branches.
+
+10. Generate all permutations of a string (swap method)
+
+Choose each character as first, then recursively permute the rest.

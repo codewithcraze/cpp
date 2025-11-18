@@ -10,7 +10,7 @@
 6. Check if an array is sorted (ascending).
 7. Reverse an array.
 8. Find the index of a given element.
-9. Check if two arrays are equal.
+9.  Check if two arrays are equal.
 10. Print even numbers in an array.
 11. Print odd numbers in an array.
 12. Count even and odd numbers.

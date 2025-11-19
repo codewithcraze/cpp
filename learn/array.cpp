@@ -7,8 +7,7 @@
 
 using namespace std;
 
-void maxMin()
-{
+void maxMin(){
     int arr[] = {1, 2, 3, 4, 5, 6, 7};
     int max = arr[0];
     int min = arr[0];
@@ -24,7 +23,7 @@ void maxMin()
         }
     }
     cout << min << " " << max;
-        cout << endl;
+    cout << endl;
 }
 
 void reverse() {
@@ -48,7 +47,7 @@ bool isShorted(){
     int array[] = {1,2,3,20,4,5,6};
 
     for(int i = 0; i < 5; i++){
-        if(array[i + 1] > array[i]){
+        if(array[i + 1] >= array[i]){
             continue;
         }else{
             return false;
@@ -101,20 +100,14 @@ void moveAllZerosToEnd(){
 void removeDuplicatesFromTheSortedArray(){
     set<int> s;
     int array[] = {1,2,3,4,5,5,6,6,7};
-
     for(int i = 0; i < 9; i++){
         s.insert(array[i]);
     }
-
     for(auto it = s.begin(); it != s.end(); it++){
         cout << *it;
     }
-
     cout << endl;
-
-
     int index  = 0;
-
     for(int i = 0; i < 9; i++){
         if(array[i] != array[i - 1]){
             array[index] = array[i];
@@ -139,20 +132,16 @@ void missingNumber(){
 void countFrequency(){
     vector<int> array = {1,2,2,3,4,5,6,6,6,7,3,3};
     map<int, int> s;
-    
     for(int i = 0; i < array.size(); i++){
         if(s.find(array[i]) != s.end()){
             s[array[i]]++;
         }else{
-            // Add value.
             s.insert({array[i], 1});
         }
     }
-
     for(auto &v : s){
         cout << v.first << " " << v.second << endl;
     }
-
 }
 void twoSum(){
     vector<int> array = {1,2,3,4,5,6,7};

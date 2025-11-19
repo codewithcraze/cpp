@@ -3,7 +3,7 @@ git reset --merge
 
 1. Print numbers from 1 to N
 2. Print numbers from N to 1
-3. Print sum of first N natural numbers
+3. Print sum of first N natural numbers[branch.cpp](branch.cpp)
 4. Print factorial of N
 5. Print Fibonacci number for N
 6. Count digits of a number using recursion

@@ -31,21 +31,23 @@
 
 # ✅ Searching & Sorting
 
-Implement binary search.
-Implement bubble sort.
-Implement selection sort.
-Implement insertion sort.
-Sort array of 0s, 1s, 2s (Dutch National Flag).
-Find Kth smallest element.
+✅Implement binary search.
+✅Implement bubble sort.
+✅Implement selection sort.
+✅Implement insertion sort.
+✅Sort array of 0s, 1s, 2s (Dutch National Flag).
+✅Find Kth smallest element.
 Count sort / Stable sorting basics.
 
 # ✅ Linked List (Basic)
 
-Reverse a linked list.
-Find middle of linked list.
-Detect loop in linked list.
-Remove duplicates from a sorted linked list.
-Merge two linked lists.
+✅Reverse a linked list.
+✅Find middle of linked list.
+✅Detect loop in linked list.
+✅Remove duplicates from a sorted linked list.
+Merge two linked lists. 
+
+x20
 
 # ✅ Stacks & Queues
 

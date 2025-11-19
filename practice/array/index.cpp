@@ -321,8 +321,41 @@ void missing_number(){
 
 
 void rotate_array_by_one(){
-    
+    vector<int> arr = {1,2,3,4,5,6,7,8};
+    int key = arr[0];
+    for(int i = 0; i < arr.size(); i++){
+        arr[i] = arr[i + 1];
+    }
+    arr[arr.size() - 1] = key;
+    for(int num : arr){
+        cout << num << " ";
+    }
+    cout << endl;
 }
+
+void rotate_an_array_by_K(int k){
+    vector<int> arr = {1,2,3,4,5,6,7};
+    k = k % arr.size();
+    for(int i = 0; i < k; i++){
+        int key = arr[0];
+        for(int j = 0; j < arr.size() - 1; j++){
+            arr[j] = arr[j + 1];
+        }
+        arr[arr.size() - 1] = key;
+    }
+    for(int num : arr){
+        cout << num << " ";
+    }
+}
+
+void two_sum(){
+    vector<int> arr = {1,2,3,4,5,6,7,8,9,10};
+    int target = 9;
+
+    
+
+}
+
 
 int main()
 {
@@ -352,7 +385,7 @@ int main()
     count_frequency();
     missing_number();
     rotate_array_by_one();
-
-
+    rotate_an_array_by_K(3);
+    two_sum();
     return 0;
 }
